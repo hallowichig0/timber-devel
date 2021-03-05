@@ -12,7 +12,7 @@ Package which provides some extra debugging options for [Timber](https://github.
 Installation
 ------------
 To install the latest stable version of this component, open a console and execute the following command:
-```bash
+```
 composer require hallowichig0/timber-devel
 ```
 
@@ -28,7 +28,7 @@ Package: `djboris88/twig-commented-include` ([GitHub](https://github.com/djboris
 
 This is a simple Twig Extension which helps debugging and navigating through many Twig partials in your project. It outputs a HTML comments before and after each include statement while rendering the template. Comments look like this:
 
-```html
+```
 <!-- Begin output of "_partials/_navigation.twig" -->
 <div class="navigation" role="navigation" data-navigation>...</div>
 <!-- / End output of "_partials/_navigation.twig" -->
@@ -40,7 +40,7 @@ Package: `hellonico/twig-dump-extension` ([GitHub](https://github.com/nlemoine/t
 
 Standalone Symfony Var Dumper Twig extension. Add `{{ dump() }}` in your twig templates to see it in action.
 
-```twig
+```
 {{ dump(foo) }}
 {% dump foo %}
 {% dump foo, bar %}
