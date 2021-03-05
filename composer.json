@@ -1,0 +1,24 @@
+{
+    "name": "hallowichig0/timber-devel",
+    "license": "GPLv2 or later",
+    "description": "This plugin will enable symfony var_dumper & twig template suggestion file.",
+    "homepage": "https://github.com/hallowichig0/timber-devel",
+    "authors": [
+        {
+            "name": "Jayson Garcia",
+            "email": "garciajayson502@gmail.com",
+            "homepage": "https://github.com/hallowichig0"
+        }
+    ],
+    "keywords": [
+        "Timber Devel",
+        "Plugin",
+        "Wordpress"
+    ],
+    "type": "wordpress-plugin",
+	"require": {
+		"php": ">=5.6",
+		"hellonico/twig-dump-extension": "^1.0",
+		"djboris88/twig-commented-include": "^1.2"
+	}
+}
