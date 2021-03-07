@@ -9,14 +9,14 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Package which provides some extra debugging options for [Timber](https://github.com/timber/timber)
 
-Installation
+== Installation ==
 ------------
 To install the latest stable version of this component, open a console and execute the following command:
-```
-composer require hallowichig0/timber-devel
-```
 
-Usage
+`composer require hallowichig0/timber-devel`
+
+
+== Usage ==
 -----
 These extensions are only active when `WP_DEBUG` is defined and set to 
 `true`. Twig Extensions will automatically be registered
@@ -28,23 +28,20 @@ Package: `djboris88/twig-commented-include` ([GitHub](https://github.com/djboris
 
 This is a simple Twig Extension which helps debugging and navigating through many Twig partials in your project. It outputs a HTML comments before and after each include statement while rendering the template. Comments look like this:
 
-```
 <!-- Begin output of "_partials/_navigation.twig" -->
 <div class="navigation" role="navigation" data-navigation>...</div>
 <!-- / End output of "_partials/_navigation.twig" -->
-```
 
-### Dump extension
+== Dump extension ==
 
-Package: `hellonico/twig-dump-extension` ([GitHub](https://github.com/nlemoine/twig-dump-extension), [Packagist](https://packagist.org/packages/hellonico/twig-dump-extension))
+Package: `hellonico/twig-dump-extension` ([GitHub](https://github.com/nlemoine/twig-dump-extension)
+[Packagist](https://packagist.org/packages/hellonico/twig-dump-extension))
 
 Standalone Symfony Var Dumper Twig extension. Add `{{ dump() }}` in your twig templates to see it in action.
 
-```
 {{ dump(foo) }}
 {% dump foo %}
 {% dump foo, bar %}
-```
 
 == Frequently Asked Questions ==
 
