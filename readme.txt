@@ -22,7 +22,7 @@ These extensions are only active when `WP_DEBUG` is defined and set to
 `true`. Twig Extensions will automatically be registered
 and applied.
 
-### Commented Include
+== Commented Include ==
 
 Package: `djboris88/twig-commented-include` ([GitHub](https://github.com/djboris88/twig-commented-include), [Packagist](https://packagist.org/packages/djboris88/twig-commented-include))
 
