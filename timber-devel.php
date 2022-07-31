@@ -5,7 +5,7 @@
  * Description: This plugin will enable symfony var_dumper & twig template suggestion file.
  * Version: 1.0.0
  * Author: Jayson Garcia (Github - hallowichig0)
- * Author URI: http://jegson.herokuapp.com
+ * Author URI: https://hallowichig0.github.io
  * License: GPLv2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  */
